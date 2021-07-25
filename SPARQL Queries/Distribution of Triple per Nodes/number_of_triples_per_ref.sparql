@@ -1,0 +1,13 @@
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX wdref: <http://www.wikidata.org/reference/>
+SELECT (?numOfTriples AS ?num) WHERE{
+SELECT  DISTINCT ?subject (COUNT(?object) AS ?numOfTriples) WHERE{
+        ?subject a wikibase:Reference .
+        ?subject ?predicate ?object .
+        MINUS {?object a wikibase:TimeValue}
+        MINUS {?object a wikibase:QuantityValue}
+        FILTER (?object != <http://wikiba.se/ontology#Reference>)
+}GROUP BY ?subject
+}
+

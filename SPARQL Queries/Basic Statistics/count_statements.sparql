@@ -1,0 +1,4 @@
+PREFIX wikibase: <http://wikiba.se/ontology#>
+SELECT (COUNT(*) AS ?count) WHERE{
+	?item a wikibase:Statement
+}

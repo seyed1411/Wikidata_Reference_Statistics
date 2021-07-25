@@ -1,0 +1,4 @@
+PREFIX wikibase: <http://wikiba.se/ontology#>
+SELECT DISTINCT (COUNT(*) AS ?count) WHERE{
+	?item a wikibase:Item
+}

@@ -1,0 +1,14 @@
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX wdref: <http://www.wikidata.org/reference/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT (REPLACE(STR(?refProperty),".*P","P") AS ?property) (COUNT(?object) AS ?usage) WHERE{
+        ?item a wikibase:Reference.
+        ?item ?refProperty ?object.
+        MINUS {?object a wikibase:TimeValue}
+        MINUS {?object a wikibase:QuantityValue}
+        FILTER (?object != <http://wikiba.se/ontology#Reference>)
+
+}
+GROUP BY (?refProperty)
+ORDER BY DESC(?usage)
