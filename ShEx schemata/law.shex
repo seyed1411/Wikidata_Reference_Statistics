@@ -1,0 +1,262 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+<#law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q7748 ] | wdt:P279 @<#law> + ;
+}
+
+<#civil_procedure> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q206937 ] | wdt:P279 @<#civil_procedure> + ;
+}
+
+<#public_order> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q294199 ] | wdt:P279 @<#public_order> + ;
+}
+
+<#adelsrecht> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q355509 ] | wdt:P279 @<#adelsrecht> + ;
+}
+
+<#mining_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q427257 ] | wdt:P279 @<#mining_law> + ;
+}
+
+<#health_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q530962 ] | wdt:P279 @<#health_law> + ;
+}
+
+<#right_to_social_security> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q548461 ] | wdt:P279 @<#right_to_social_security> + ;
+}
+
+<#conveyancing> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q759815 ] | wdt:P279 @<#conveyancing> + ;
+}
+
+<#construction_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q811705 ] | wdt:P279 @<#construction_law> + ;
+}
+
+<#food_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q895986 ] | wdt:P279 @<#food_law> + ;
+}
+
+<#wine_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1162317 ] | wdt:P279 @<#wine_law> + ;
+}
+
+<#disziplinarrecht> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1230212 ] | wdt:P279 @<#disziplinarrecht> + ;
+}
+
+<#container_deposit_legislation> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1309660 ] | wdt:P279 @<#container_deposit_legislation> + ;
+}
+
+<#financial_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1416588 ] | wdt:P279 @<#financial_law> + ;
+}
+
+<#forest_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1438384 ] | wdt:P279 @<#forest_law> + ;
+}
+
+<#sports_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1453439 ] | wdt:P279 @<#sports_law> + ;
+}
+
+<#sprengstoffrecht> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1466479 ] | wdt:P279 @<#sprengstoffrecht> + ;
+}
+
+<#gaststättenrecht> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1495680 ] | wdt:P279 @<#gaststättenrecht> + ;
+}
+
+<#ecclesiastical_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1577380 ] | wdt:P279 @<#ecclesiastical_law> + ;
+}
+
+<#youth_welfare_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1711323 ] | wdt:P279 @<#youth_welfare_law> + ;
+}
+
+<#economic_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1752579 ] | wdt:P279 @<#economic_law> + ;
+}
+
+<#trademark_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1900600 ] | wdt:P279 @<#trademark_law> + ;
+}
+
+<#customs_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1941172 ] | wdt:P279 @<#customs_law> + ;
+}
+
+<#social_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1987559 ] | wdt:P279 @<#social_law> + ;
+}
+
+<#police_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q2101827 ] | wdt:P279 @<#police_law> + ;
+}
+
+<#sprengstoffrecht_deutschland> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q2313683 ] | wdt:P279 @<#sprengstoffrecht_deutschland> + ;
+}
+
+<#staatsorganisationsrecht> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q2325126 ] | wdt:P279 @<#staatsorganisationsrecht> + ;
+}
+
+<#public_procurement_law_in_germany> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q2515700 ] | wdt:P279 @<#public_procurement_law_in_germany> + ;
+}
+
+<#medical_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q2632182 ] | wdt:P279 @<#medical_law> + ;
+}
+
+<#droit_de_la_communication> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q3039676 ] | wdt:P279 @<#droit_de_la_communication> + ;
+}
+
+<#droit_pénal_de_la_presse> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q3039827 ] | wdt:P279 @<#droit_pénal_de_la_presse> + ;
+}
+
+<#anti_homelessness_legislation> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q4376039 ] | wdt:P279 @<#anti_homelessness_legislation> + ;
+}
+
+<#delict> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q5253952 ] | wdt:P279 @<#delict> + ;
+}
+
+<#waste_management_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q7972824 ] | wdt:P279 @<#waste_management_law> + ;
+}
+
+<#municipal_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q8009938 ] | wdt:P279 @<#municipal_law> + ;
+}
+
+<#telecommunications_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q11826893 ] | wdt:P279 @<#telecommunications_law> + ;
+}
+
+<#welzijnsrecht> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q14518216 ] | wdt:P279 @<#welzijnsrecht> + ;
+}
+
+<#civil_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q17113465 ] | wdt:P279 @<#civil_law> + ;
+}
+
+<#state_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q17363091 ] | wdt:P279 @<#state_law> + ;
+}
+
+<#dynamisk_tingsrett> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q19392966 ] | wdt:P279 @<#dynamisk_tingsrett> + ;
+}
+
+<#Trygderett> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q19393365 ] | wdt:P279 @<#Trygderett> + ;
+}
+
+<#iT_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q19971701 ] | wdt:P279 @<#iT_law> + ;
+}
+
+<#norsk_avtalerett> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q21403057 ] | wdt:P279 @<#norsk_avtalerett> + ;
+}
+
+<#transactional_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q25098713 ] | wdt:P279 @<#transactional_law> + ;
+}
+
+<#execution_of_court_decision> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q28147639 ] | wdt:P279 @<#execution_of_court_decision> + ;
+}
+
+<#data_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q45949533 ] | wdt:P279 @<#data_law> + ;
+}
+
+<#theatre_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q47450595 ] | wdt:P279 @<#theatre_law> + ;
+}
+
+<#etten_beiler_dingspel> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q47517044 ] | wdt:P279 @<#etten_beiler_dingspel> + ;
+}
+
+<#Arverett> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q53036384 ] | wdt:P279 @<#Arverett> + ;
+}
+
+<#Arbeitnehmererfinderrecht> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q61451648 ] | wdt:P279 @<#Arbeitnehmererfinderrecht> + ;
+}
+
+<#labor_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q628967 ] | wdt:P279 @<#labor_law> + ;
+}
+
+<#sozialrecht> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1567259 ] | wdt:P279 @<#sozialrecht> + ;
+}
+
+<#adjudication> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q357789 ] | wdt:P279 @<#adjudication> + ;
+}
+
+<#legal_proceeding> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1301203 ] | wdt:P279 @<#legal_proceeding> + ;
+}
+
+<#legal_case> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q2334719 ] | wdt:P279 @<#legal_case> + ;
+}
+
+<#bankruptcy_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q66599007 ] | wdt:P279 @<#bankruptcy_law> + ;
+}
+
+<#area_of_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1756157 ] | wdt:P279 @<#area_of_law> + ;
+}
+
+<#intellectual_property_law> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q18657604 ] | wdt:P279 @<#intellectual_property_law> + ;
+}
+
+<#bundle_of_rights> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q4997551 ] | wdt:P279 @<#bundle_of_rights> + ;
+}
+
+<#evidence> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q176763 ] | wdt:P279 @<#evidence> + ;
+}
+
+<#jurisprudence> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q4932206 ] | wdt:P279 @<#jurisprudence> + ;
+}
+
+<#election_offence> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q105327849 ] | wdt:P279 @<#election_offence> + ;
+}
+
+<#consumer_protection> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q664183 ] | wdt:P279 @<#consumer_protection> + ;
+}
+
+<#trade_regulation> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q7832073 ] | wdt:P279 @<#trade_regulation> + ;
+}
+
+<#jurisdiction> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q5982983 ] | wdt:P279 @<#jurisdiction> + ;
+}

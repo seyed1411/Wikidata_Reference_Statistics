@@ -1,0 +1,10 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+<#watercraft> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1229765 ] | wdt:P279 @<#watercraft> + ;
+}
+
+<#ship_class> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q559026 ] | wdt:P279 @<#ship_class> + ;
+}

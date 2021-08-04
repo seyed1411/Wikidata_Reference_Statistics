@@ -1,0 +1,107 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX :    <http://example.org/>
+
+<#active_site> EXTRA wdt:P31 {
+  wdt:P31  [ wd:Q423026 ] | wdt:P279 @<#active_site>+ ;
+}
+
+<#anatomical_structure> EXTRA wdt:P31 {
+  wdt:P31  [ wd:Q4936952 ] | wdt:P279 @<#anatomical_structure> + ;
+}
+
+<#binding_site> EXTRA wdt:P31 {
+  wdt:P31  [ wd:Q616005 ] | wdt:P279 @<#binding_site> + ;
+}
+
+<#biological_pathway> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q4915012 ] | wdt:P279 @<#biological_pathway> + ;
+}
+
+
+<#biological_process> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q2996394 ] | wdt:P279 @<#biological_process> + ;
+}
+
+<#cellular_component> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q5058355 ] | wdt:P279 @<#cellular_component> + ;
+}
+
+<#chemical_compound> EXTRA wdt:P31 {
+  wdt:P31  [ wd:Q11173 ] | wdt:P279 @<#chemical_compound> + ;
+}
+
+<#chromosome> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q37748 ] | wdt:P279 @<#chromosome> + ;
+}
+
+<#disease> EXTRA wdt:P31 {
+  wdt:P31   [ wd:Q12136 ] | wdt:P279 @<#disease> + ;
+}
+
+<#gene> EXTRA wdt:P31 {
+  wdt:P31   [ wd:Q7187 ] | wdt:P279 @<#gene> + ;
+}
+
+<#mechanism_of_action> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q3271540 ] | wdt:P279 @<#mechanism_of_action> + ;
+}
+
+<#medication> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q12140 ] | wdt:P279 @<#medication> + ;
+}
+
+<#molecular_function> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q14860489 ] | wdt:P279 @<#molecular_function> + ;
+}
+
+<#pharmaceutical_product> EXTRA wdt:P31 {
+  wdt:P31  [ wd:Q28885102 ] | wdt:P279 @<#molecular_function> + ;
+}
+
+<#pharmacologic_action> EXTRA wdt:P31 {
+  wdt:P31 [wd:Q50377224 ] | wdt:P279 @<#pharmacologic_action> + ;
+}
+
+<#protein_domain> EXTRA wdt:P31 {
+  wdt:P31  [ wd:Q898273 ] | wdt:P279 @<#protein_domain> + ;
+}
+
+<#protein_family> EXTRA wdt:P31 {
+  wdt:P31  [ wd:Q417841 ] | wdt:P279 @<#protein_family> + ;
+}
+
+<#protein> EXTRA wdt:P31 {
+  wdt:P31  [ wd:Q8054 ] | wdt:P279 @<#protein> + ;
+}
+
+<#ribosomal_RNA> EXTRA wdt:P31 {
+  wdt:P31  [ wd:Q28885102 ] | wdt:P279 @<#ribosomal_RNA> + ;
+}
+
+<#sequence_variant> EXTRA wdt:P31 {
+  wdt:P31  [ wd:Q15304597 ] | wdt:P279 @<#sequence_variant> + ;
+}
+
+
+<#supersecondary_structure> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q7644128 ] | wdt:P279 @<#supersecondary_structure> + ;
+}
+
+<#symptom> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q169872 ] | wdt:P279 @<#symptom> + ;
+}
+
+<#taxon> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q16521 ] | wdt:P279 @<#taxon> + ;
+}
+
+<#structural_motif> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q16521 ] | wdt:P279 @<#structural_motif> + ;
+}
+
+<#therapeutic_use> EXTRA wdt:P31 {
+  wdt:P31   [ wd:Q50379781 ] | wdt:P279 @<#therapeutic_use> + ;
+}

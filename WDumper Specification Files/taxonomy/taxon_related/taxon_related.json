@@ -279,17 +279,6 @@
                     "property": "P31"
                 }
             ]            
-        },
-        {
-            "type": "item",
-            "properties": [
-                {
-                    "type": "entityid",
-                    "rank": "all",                    
-                    "value": "Q2439719", 
-                    "property": "P31"
-                }
-            ]            
         }
         
     ]

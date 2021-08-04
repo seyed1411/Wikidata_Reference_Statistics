@@ -1,0 +1,26 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+<#musician> EXTRA wdt:P31 {
+  wdt:P106 [ wd:Q639669 ] | wdt:P279 @<#musician> + ;
+}
+
+<#musical_ensemble> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q2088357 ] | wdt:P279 @<#musical_ensemble> + ;
+}
+
+<#musical_work> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q2188189 ] | wdt:P279 @<#musical_work> + ;
+}
+
+<#audio_track> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q7302866 ] | wdt:P279 @<#audio_track> + ;
+}
+
+<#music_video> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q193977 ] | wdt:P279 @<#music_video> + ;
+}
+
+<#record_label> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q18127 ] | wdt:P279 @<#record_label> + ;
+}

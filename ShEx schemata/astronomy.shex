@@ -1,0 +1,12 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX :    <http://example.org/>
+
+<#astronomical_object> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q6999 ] | wdt:P279 @<#astronomical_object> +;
+}
+
+# To include universe (Q1):
+:universe EXTRA wdt:P31{
+  wdt:P31 [ wd:Q36906466 ] ;
+}

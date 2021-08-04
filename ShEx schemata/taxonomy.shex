@@ -1,0 +1,102 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+<#taxon> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q16521 ] | wdt:P279 @<#taxon> + ;
+}
+
+<#taxonomicـtreatment> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q32945461 ] | wdt:P279 @<#taxonomicـtreatment> + ;
+}
+
+<#taxonـconcept> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q38202667 ] | wdt:P279 @<#taxonـconcept> + ;
+}
+
+<#recombination> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q14594740 ] | wdt:P279 @<#recombination> + ;
+}
+
+<#replaced_synonym> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q15709329 ] | wdt:P279 @<#replaced_synonym> + ;
+}
+
+<#synonym> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1040689 ] | wdt:P279 @<#synonym> + ;
+}
+
+<#heterotypic_synonym> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q59511375 ] | wdt:P279 @<#heterotypic_synonym> + ;
+}
+
+<#homonym> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q902085 ] | wdt:P279 @<#homonym> +;
+}
+
+<#hemihomonym> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q36033662 ] | wdt:P279 @<#hemihomonym> + ;
+}
+
+<#later_homonym> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q17276484 ] | wdt:P279 @<#later_homonym> + ;
+}
+
+<#earlier_homonym> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q21651662 ] | wdt:P279 @<#earlier_homonym> + ;
+}
+
+<#isonym> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q12021866 ] | wdt:P279 @<#isonym> + ;
+}
+
+<#nomen_conservandum> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q941227 ] | wdt:P279 @<#nomen_conservandum> + ;
+}
+
+<#nomen_illegitimum> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q1093954 ] | wdt:P279 @<#nomen_illegitimum> + ;
+}
+
+<#nomen_dubium> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q922448 ] | wdt:P279 @<#nomen_dubium> + ;
+}
+
+<#nomen_nudum> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q844326 ] | wdt:P279 @<#nomen_nudum> + ;
+}
+
+<#nomen_utique_rejiciendum> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q15149791 ] | wdt:P279 @<#nomen_utique_rejiciendum> + ;
+}
+
+<#orthographical_variant> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q15149791 ] | wdt:P279 @<#orthographical_variant> + ;
+}
+
+<#unavailable_name> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q7882332 ] | wdt:P279 @<#unavailable_name> + ;
+}
+
+<#designation> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q7882332 ] | wdt:P279 @<#designation> + ;
+}
+
+<#superfluous_name> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q29995613 ] | wdt:P279 @<#superfluous_name> + ;
+}
+
+<#unranked_name> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q32307714 ] | wdt:P279 @<#unranked_name> + ;
+}
+
+<#recombination> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q14594740 ] | wdt:P279 @<#recombination> + ;
+}
+
+<#misidentification> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q45887982 ] | wdt:P279 @<#misidentification> + ;
+}
+
+<#lectotype> EXTRA wdt:P31 {
+  wdt:P31 [ wd:Q2439719 ] | wdt:P279 @<#lectotype> + ;
+}
