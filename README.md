@@ -6,6 +6,7 @@ This repository contains the materials of the **Reference Statistics in Wikidata
  - **Scripts:** The Python script used to enrich WDumper specification files with sub-classes and the jupyter notebook for plotting the charts.
  - **SPARQL Queries:** SPARQL queries to fetch reference statistics from datasest.
  - **WDumper Specification Files:** The specification files for extracting topical subsets corresponding to 6 different WikiProjects via WDumper tool. There are two JSON file for each project. The first just contains the top-level classes. The second (with '_sub' suffix) has enriched by sub-classes. Experiments were done using the latter.
+ - **ShEx schemata:** The Shape Exprision schemas of the 6 WikiProjects suitable for subsetting through ShEx validators such as shex-js and PyShex (slurping).
 
 # To reproduce the experiments
 1. You can  download the relevant dataset from [this Zenodo repository](https://doi.org/10.5281/zenodo.5117927) for the desired WikiProject. There are one or a collection of .nt.gz files for each project. Otherwise, you can use WDumper with the specification files provided in the **WDumper Specification Files** directory and build the dataset of each project from the scratch. To use WDumper, go through the following steps:
