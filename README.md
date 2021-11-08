@@ -1,6 +1,6 @@
 # Wikidata Reference Statistics
 
-This repository contains the materials of the **Reference Statistics in Wikidata Topical Subsets** paper. The embeddings are:
+This repository contains the materials of the **[Reference Statistics in Wikidata Topical Subsets, 2nd Wikidata Workshop with ISWC 2021](http://ceur-ws.org/Vol-2982/paper-3.pdf)** paper. The embeddings are:
 
  - **Query Results:** The output of SPARQL queries for each experiment.
  - **Scripts:** The Python script used to enrich WDumper specification files with sub-classes and the jupyter notebook for plotting the charts.
