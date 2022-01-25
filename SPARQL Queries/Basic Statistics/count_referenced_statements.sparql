@@ -1,10 +1,7 @@
 PREFIX wikibase: <http://wikiba.se/ontology#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX wdref: <http://www.wikidata.org/reference/>
-SELECT DISTINCT (COUNT(?item) AS ?items) WHERE{ #(COUNT(?refnode) AS ?refcount) ?refnode WHERE{
-#SELECT * WHERE{ ?item prov:wasDerivedFrom wdref:0dd0a3ca0c59f04441b812145e2be725f4f219bb}
-#DESCRIBE wdref:0dd0a3ca0c59f04441b812145e2be725f4f219bb
+SELECT DISTINCT (COUNT(?item) AS ?items) WHERE{ 
 	?item a wikibase:Statement.
 	?item prov:wasDerivedFrom ?refnode.
 }
-#}GROUP BY ?refnode HAVING (?items > 2)
