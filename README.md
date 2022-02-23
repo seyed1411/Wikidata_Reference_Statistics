@@ -1,5 +1,79 @@
 # Wikidata Reference Statistics
+---
+**IMPORTANT NOTE**
 
+Due to a logical error in one of the queries, the data in one of the columns in Table 1 in the paper changes slightly. The column shows the number and percentage of referenced statements. In the original query used, the expression DISTINCT was applied to the external (alias) variable instead of the internal variable ([this commit](https://github.com/seyedahbr/Wikidata_Reference_Statistics/commit/0bfba7251286fbe539ebdb2b40067cd8986c9aef)). Below is the correct data for each dataset. Other paper's information as well as datasets are absolutely correct.
+ 
+<table>
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Dump</th>
+      <th>Referenced Statements</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2>Gene Wiki</td>
+      <td>2016</td>
+      <td><strike>8,789,246(50%)</strike> 8,699,626(49%)</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td><strike>65,780,005(71%)</strike> 61,080,346(66%)</td>
+    </tr>
+    <tr>
+      <td rowspan=2>Taxonomy</td>
+      <td>2016</td>
+      <td><strike>8,146,218(51%)</strike> 8,061,019(50%)</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td><strike>19,423,938(60%)</strike> 16,778,074(52%)</td>
+    </tr>
+    <tr>
+      <td rowspan=2>Astronomy</td>
+      <td>2016</td>
+      <td>
+        <strike>751,158(85%)</strike> 695,795(78%)
+      </td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td><strike>128,394,763(89%)</strike> 127,751,791(88%)</td>
+    </tr>
+    <tr>
+      <td rowspan=2>Law</td>
+      <td>2016</td>
+      <td><strike>48,225(27%)</strike> 48,132(27%)</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td><strike>2,266,462(53%)</strike> 2,257,890(53%)</td>
+    </tr>
+    <tr>
+      <td rowspan=2>Music</td>
+      <td>2016</td>
+      <td><strike>2,298,330(61%)</strike> 2,135,020(57%)</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td><strike>6,342,019(54%)</strike> 5,920,103(51%)</td>
+    </tr>
+    <tr>
+      <td rowspan=2>Ships</td>
+      <td>2016</td>
+      <td><strike>114,528(62%)</strike> 111,121(61%)</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td><strike>315,381(29%)</strike> 295,885(27%)</td>
+    </tr>
+  </tbody>
+</table>
+
+
+---
 This repository contains the materials of the **[Reference Statistics in Wikidata Topical Subsets, 2nd Wikidata Workshop with ISWC 2021](http://ceur-ws.org/Vol-2982/paper-3.pdf)** paper. The embeddings are:
 
  - **Query Results:** The output of SPARQL queries for each experiment.
